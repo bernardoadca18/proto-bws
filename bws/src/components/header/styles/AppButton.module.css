@@ -1,0 +1,22 @@
+.appButton {
+    background: none;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 16px;
+}
+
+.appButton svg {
+    fill: #FFFFFF;
+    width: 16px;
+    height: 16px;
+}
+
+.appButton:hover {
+    cursor: pointer;
+}
+
+.appButton:hover svg {
+    fill: #42B4FF;
+}

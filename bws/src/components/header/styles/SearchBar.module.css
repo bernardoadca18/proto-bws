@@ -1,0 +1,38 @@
+.searchBar {
+    width: 540px;
+    height: 26px;
+    padding: 0px;
+    border: 2px solid hsl(0, 0%, 50%);
+    border-radius: 8px;
+    align-self: center;
+    background-color: #0F141A;
+    display: flex;
+}
+
+.searchBar svg {
+    fill: hsl(0, 0%, 80%);
+    align-self: center;
+    padding: 8px;
+    width: 14px;
+    height: 14px;
+}
+
+.searchBar input {
+    background: none;
+    border: none;
+    width: auto;
+    flex-grow: 1;
+    color: hsl(0, 0%, 80%);
+}
+
+.searchBar input:focus {
+    outline: none;
+}
+
+.searchBar p {
+    align-self: center;
+    color: hsl(0, 0%, 60%);
+    font-size: 13px;
+    padding: 8px;
+    cursor: default;
+}

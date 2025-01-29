@@ -1,0 +1,8 @@
+.appFooter {
+    height: 30px;
+    background-color: #161D26;
+    color: #FFFFFF;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

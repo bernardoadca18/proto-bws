@@ -1,0 +1,25 @@
+.textDropdown {
+    display: flex;
+    background: none;
+    color: #FFFFFF;
+    border: none;
+    padding-left: 16px;
+    padding-right: 16px;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    font-size: 12px;
+}
+
+.textDropdown:hover {
+    cursor: pointer;
+    color: #42B4FF;
+}
+
+.textDropdown:hover * {
+    fill: #42B4FF;
+}
+
+.textDropdown svg {
+    align-self: center;
+    margin-left: 4px;
+}
